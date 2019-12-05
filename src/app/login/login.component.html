@@ -2,21 +2,24 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <body>
 
-<h2>Peerwise Clone Sigin</h2>
+    <h2>Peerwise Clone Sigin</h2>
 
-<form method="post">
-    <div class="login">
-        <label for="username"><b>Username: </b></label>
-        <input type="text" placeholder="Enter Username" name="username" required>
+    <form>
+        <div class="login">
+            <label for="username"><b>Username: </b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
         
-        <label for="password"><b>Password: </b></label>
-        <input type="password" placeholder="Enter Password" name="password" required>
+            <label for="password"><b>Password: </b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
         
-        <button type="submit">Login</button>
-        
-        <h4>Don't have an account yet?</h4>
-        <button type="submit">Register</button>
-    </div>
-</form>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+
+    <h4>Don't have an account yet?</h4>
+    <button href="#" routerLink="/register">Register</button>
+    <!-- <input type="submit" value="Register" href="#" routerLink="/register"><br> -->
+
 
 </body>
+
