@@ -1,0 +1,17 @@
+.back {
+    padding-bottom: 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+}
