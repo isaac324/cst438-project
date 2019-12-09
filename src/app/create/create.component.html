@@ -1,12 +1,38 @@
-<div class="back">
-    <button routerLink="/home">Back</button>
-</div> 
+<div class="container">
 
-<p>create works!</p>
+    <div class="back">
+        <button routerLink="/home">Back</button>
+    </div> 
+    
+    <div class="question">
+        Question:<br>
+        <textarea row="5" cols="50">
+            Question 1: Need to pull question from api.
+        </textarea>
+        <br>
+        <br>
+        Option A:
+        <input type="text" name="Option A">
+        <br>
+        Option B:
+        <input type="text" name="Option B">
+        <br>
+        Option C:
+        <input type="text" name="Option C">
+        <br>
+        <br>
+        <label class="answers">A
+            <input type="radio" name="q1" value="a">
+        </label>
+        <label class="answers">B
+            <input type="radio" name="q1" value="b">
+        </label>
+        <label class="answers">C
+            <input type="radio" name="q1" value="c">
+        </label>
+        <br>
+        <br>
+        <button type="submit" routerLink="/home">Submit Question</button>
+    </div>
 
-
-<textarea row="5" cols="50">
-    Question 1: Need to pull question from api.
-</textarea>
-
-
+</div>

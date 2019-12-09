@@ -1,0 +1,32 @@
+.back {
+    padding-bottom: 20px;
+}
+
+.answers {
+    padding: 5px; 
+    padding-right: 5px;
+}
+
+input[type="text"] {
+    width: 50%;
+    border-color: cornflowerblue;
+    padding-bottom: 5px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.question {
+    padding: 10px;
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+textarea {
+    padding: 5px;
+    font-size: 1.5em;
+    height: 100px;
+    width: 90%;
+    border-color: cornflowerblue;
+}
