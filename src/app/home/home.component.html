@@ -1,15 +1,13 @@
 <header>
-        <div class="container">
-            <app-nav></app-nav>
-        </div>
-    </header>
+  <div class="container">
+    <app-nav></app-nav>
+  </div>
+</header>
     
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <!-- <head>
       <title>Home Page</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <style>
@@ -18,24 +16,25 @@
         .sidenav {
           background-color: #f1f1f1;
           height: 100%;
+          margin-left: 20px;
         }
       </style>
       
-    </head>
+    </head> -->
     <body>
     
     <div class="container">
       <div class="row content">
-        <div class="col-sm-3 sidenav">
+        <!-- <div class="col-sm-3 sidenav">
           <h4>Courses:</h4>
           <ul class="nav nav-pills nav-stacked">
             <li class="active"><a href="#section1">Add Course +</a></li>
             <li><a href="#section2">Course 1</a></li>
             <li><a href="#section3">Course 2</a></li>
           </ul><br>
-        </div>
+        </div> -->
     
-        <div class="col-sm-9">
+        <!-- <div class="col-sm-9">
           <h4><small>RECENT POSTS</small></h4>
           <hr>
           <h2>I have a Question...</h2>
@@ -43,7 +42,23 @@
           <h5> <span class="label label-primary">Not Answered</span></h5><br>
             <span></span>
           <br>
+        </div> -->
+
+        <p class="question">1. Your Question?</p>
+        <ul class="answers">
+          <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Option 1</label><br/>
+          <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Option 2</label><br/>
+          <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Option 3</label><br/>
+          <!-- <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Option 4</label><br/> -->
+        </ul>
+        <button class ="answers">Enter</button>
+        <div id="results">
+          The Right answers is
         </div>
+        <div id="category1">
+          <p><strong>Question 1:</strong> The correct answer is the <strong>Option 1</strong>.</p>
+        </div>
+
       </div>
     </div>
     
