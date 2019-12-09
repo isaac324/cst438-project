@@ -1,5 +1,4 @@
 .back {
-    //margin-bottom: 25px;
     input[type=submit] {
         margin-bottom: 25px;
         padding: 5px;
@@ -8,12 +7,6 @@
         font-weight: bold;
     }
 }
-
-// .bb {
-//     background-color: cornflowerblue;
-//     font-size: 1em;
-//     padding: 10px;
-// }
 
 .login {
     input[type=text], input[type=password] {
@@ -31,24 +24,14 @@
         font-weight: bold;
         padding: 10px;
         width: 100%;
+        input:hover[type="submit"] {
+            background: darken(cornflowerblue, 10%);
+        }
     }
 }
-
-// input[type=text], input[type=password] {
-//     width: 100%;
-//     display: inline-block;
-//     padding: 12px 20px;
-//     margin: 8px 0;
-//     border: 2px solid black;
-//     box-sizing: border-box;
-// }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5%;
 }
 
-// input[type=submit] {
-//     margin-top: 10px;
-//     margin-bottom: 15px;
-// }
