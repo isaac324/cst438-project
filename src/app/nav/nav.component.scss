@@ -18,4 +18,7 @@ li a {
     padding: 10px 10px;
     text-decoration: none;
     font-size: 1.2em;
+    &:hover {
+        color: cornflowerblue;
+    }
 }
